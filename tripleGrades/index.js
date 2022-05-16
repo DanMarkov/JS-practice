@@ -3,11 +3,11 @@
  */
  function tripleGrades(grades) {
     
-	let sum = grades.map(function(grade){
+	let result = grades.map(function(grade){
        return grade * 3
     })
 
-    return sum
+    return result
 }
 
 // Sample usage - do not modify
